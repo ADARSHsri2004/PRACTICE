@@ -1,11 +1,11 @@
 import React from 'react'
 
 const New = () => {
-    return (
-        <div>
-            List of new products
-        </div>
-    )
+  return (
+    <div>
+      new products
+    </div>
+  )
 }
 
 export default New

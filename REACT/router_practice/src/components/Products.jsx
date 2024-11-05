@@ -6,11 +6,12 @@ const Products = () => {
     <>
     <div>
       <input className='m-4 bg-black/10 p-2' placeholder='Search products' />
+    </div>
       <nav className='flex gap-5 m-5'>
         <Link to='/featured'>Featured</Link>
         <Link to='/new'>New</Link>
       </nav>
-    </div>
+      <Outlet/>
     </>
   )
 }

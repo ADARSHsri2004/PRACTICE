@@ -20,8 +20,8 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='order-summary' element={<Order_summary />} />
         <Route path='products' element={<Products />}>
-          <Route path='featured' element={<Featured />} />
-          <Route path='new' element={<New />} />
+          <Route path='new' element={<New/>}/>
+          <Route path='featured' element={<Featured/>}/>
         </Route>
         <Route path='*' element={<Nomathc />} />
 
